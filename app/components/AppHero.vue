@@ -6,8 +6,8 @@
     :ui="{container: 'lg:pb-16'}"
   >
     <NuxtImg
-      src="/vue-expert.png"
-      alt="App screenshot"
+      src="/project-image.png"
+      alt="Imagem do projeto"
       class="rounded-lg shadow-2xl ring ring-default"
     /></UPageHero>
 </template>

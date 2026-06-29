@@ -1,38 +1,38 @@
 <script lang="ts" setup>
 const cards = ref([
   {
-    title: 'Site curso Vuejs',
-    description: 'Curso de Vuejs Expert.',
+    title: 'MVP Vuetify',
+    description: 'MVP desenvolvido durante o curso de Vue.js Expert, utilizando vuetify.',
     icon: 'i-lucide-swatch-book',
     class: 'hover:bg-secondary-100 cursor-pointer',
-    to: 'https://cursovuejs.com.br/',
+    to: 'https://mvp-vuetify-carolina.netlify.app/',
     target: '_blank',
     image: {
-      path: '/vue-expert.png'
+      path: '/mvp-vuetify.png'
     },
     orientation: 'vertical' as const
   },
   {
-    title: 'Site AbaeteFest',
-    description: 'Site do maior app de Abaetetuba.',
+    title: 'MVP daisyUI',
+    description: 'MVP desenvolvido durante o curso de Vue.js Expert, utilizando daisyUI e API Rick and Morty.',
     icon: 'i-lucide-swatch-book',
     class: 'hover:bg-secondary-100 cursor-pointer',
-    to: 'https://abaetefest.com.br/',
+    to: 'https://mvp-daisyui-rickandmorty.netlify.app/',
     target: '_blank',
     image: {
-      path: '/abaetefest.png'
+      path: '/mvp-daisy-ui.png'
     },
     orientation: 'vertical' as const
   },
   {
-    title: 'App AbaeteFest',
-    description: 'Aplicativo PWA publicado nas lojas.',
+    title: 'Portfólio principal',
+    description: 'Portfólio com meus projetos, formações e experiência.',
     icon: 'i-lucide-swatch-book',
     class: 'hover:bg-secondary-100 cursor-pointer',
     target: '_blank',
-    to: 'https://play.google.com/store/apps/details?id=br.com.abaetefest.app.twa',
+    to: 'https://carolina.playgrindelia.com/',
     image: {
-      path: '/app-abaetetuba.png'
+      path: '/portfolio.png'
     },
     orientation: 'vertical' as const
   }
@@ -44,7 +44,7 @@ const cards = ref([
     <UPageCTA 
       title="Cases de sucesso" 
       variant="naked"
-      description="Conheça os cases de sucesso da nossa empresa!"
+      description="Conheça os meus projetos!"
     />
 
     <UPageGrid>
