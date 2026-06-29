@@ -19,8 +19,7 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/ui',
-    '@nuxtjs/seo'
+    '@nuxt/ui'
   ],
   app: {
     head: {
@@ -40,9 +39,6 @@ export default defineNuxtConfig({
     lang: 'pt-BR',
     url: 'https://mvp-nuxt-course.netlify.app',
     keywords: 'vuejs, nuxt'
-  },
-  ogImage: {
-    enabled: true
   },
   nitro: {
     preset: 'netlify',
