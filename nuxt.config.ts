@@ -38,10 +38,16 @@ export default defineNuxtConfig({
     description: 'My Nuxt Portfolio',
     defaultLocale: 'pt-BR',
     lang: 'pt-BR',
-    url: 'https://mvp-nuxt-portfolio.netlify.app',
+    url: 'https://mvp-nuxt-course.netlify.app',
     keywords: 'vuejs, nuxt'
   },
   ogImage: {
     enabled: true
+  },
+  nitro: {
+    preset: 'netlify',
+    prerender: {
+      routes: ['/']
+    }
   }
 })
