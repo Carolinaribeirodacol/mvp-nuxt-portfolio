@@ -21,6 +21,13 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/ui'
   ],
+  image: {
+    domains: ['avatars.githubusercontent.com'],
+    provider: 'ipx',
+    ipx: {
+      maxAge: 60 * 60 * 24 * 7
+    }
+  },
   app: {
     head: {
       htmlAttrs: {

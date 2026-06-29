@@ -61,7 +61,7 @@ const links = ref<ButtonProps[]>([
 
 <template>
   <UPageSection
-    :title="`Sobre - ${name}`"
+    :title="name"
     :description="bio"
     icon="i-lucide-rocket"
     orientation="horizontal"
@@ -75,7 +75,7 @@ const links = ref<ButtonProps[]>([
       alt="Avatar" 
       width="352"
       height="647"
-      class="rounded-lg shadow-2xl ring ring-default" 
+      class="w-full max-w-sm md:max-w-sm lg:max-w-md rounded-lg shadow-2xl ring ring-default" 
     />
   </UPageSection>
 </template>
